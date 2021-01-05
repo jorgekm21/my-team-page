@@ -103,6 +103,11 @@
         grid-template-columns: 35% 25%;
     }
 
+    .grid__item:nth-child(2),
+    .grid__item:nth-child(5){
+        margin-top: 0;
+    }
+
     .footer__item{
         margin-left: 20%;
     }
